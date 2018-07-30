@@ -58,9 +58,7 @@ addn-hosts=/path/to/hostnames.txt
  - http://malwaredomains.lehigh.edu/files/immortal_domains.txt
  - https://raw.githubusercontent.com/vokins/yhosts/master/hosts.txt `Excluding legit license servers`
  - https://raw.githubusercontent.com/piwik/referrer-spam-blacklist/master/spammers.txt
- - https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/win7/spy.txt
- - https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/win81/spy.txt
- - https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/win10/spy.txt
+ - https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt
  - https://raw.githubusercontent.com/AdAway/adaway.github.io/master/hosts.txt
  - http://www.dshield.org/feeds/suspiciousdomains_Medium.txt
  - https://raw.githubusercontent.com/mitchellkrogza/Badd-Boyz-Hosts/master/hosts
@@ -71,8 +69,8 @@ addn-hosts=/path/to/hostnames.txt
  - https://v.firebog.net/hosts/static/w3kbl.txt
  - https://raw.githubusercontent.com/Yhonay/antipopads/master/hosts
  - https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/hostfile.txt
- - https://raw.githubusercontent.com/ZeroDot1/CoinBlockerLists/master/hosts_browser
- - https://raw.githubusercontent.com/FadeMind/hosts.extras/master/Spotify-Ad-free/hosts
+ - https://zerodot1.gitlab.io/CoinBlockerLists/hosts_browser
+ - https://raw.githubusercontent.com/FadeMind/hosts.extras/master/StreamingAds/hosts
  - https://raw.githubusercontent.com/azet12/KADhosts/master/KADhosts.txt
  - https://raw.githubusercontent.com/FadeMind/hosts.extras/master/UncheckyAds/hosts
  - https://raw.githubusercontent.com/tyzbit/hosts/master/data/tyzbit/hosts
