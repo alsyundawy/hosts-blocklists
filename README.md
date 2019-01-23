@@ -53,23 +53,23 @@ addn-hosts=/path/to/hostnames.txt
  - http://pgl.yoyo.org/as/serverlist.php?hostformat=hosts
  - https://raw.githubusercontent.com/StevenBlack/hosts/master/data/StevenBlack/hosts
  - https://raw.githubusercontent.com/Dawsey21/Lists/master/adblock-list.txt
- - https://raw.githubusercontent.com/quidsup/notrack/master/trackers.txt
+ - https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-blocklist.txt
  - http://malwaredomains.lehigh.edu/files/BOOT
  - http://malwaredomains.lehigh.edu/files/immortal_domains.txt
  - https://raw.githubusercontent.com/vokins/yhosts/master/hosts.txt `Excluding legit license servers`
  - https://raw.githubusercontent.com/piwik/referrer-spam-blacklist/master/spammers.txt
  - https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt
  - https://raw.githubusercontent.com/AdAway/adaway.github.io/master/hosts.txt
- - http://www.dshield.org/feeds/suspiciousdomains_Medium.txt
+ - https://www.dshield.org/feeds/suspiciousdomains_Medium.txt
  - https://raw.githubusercontent.com/mitchellkrogza/Badd-Boyz-Hosts/master/hosts
  - http://www.shallalist.de/Downloads/shallalist.tar.gz `only 'adv' & 'tracker' lists`
- - http://dsi.ut-capitole.fr/blacklists/download/publicite.tar.gz `only 'publicite' list`
+ - https://dsi.ut-capitole.fr/blacklists/download/publicite.tar.gz `only 'publicite' list`
  - https://ssl.bblck.me/blacklists/hosts-file.txt
  - https://raw.githubusercontent.com/bkrcrc/turk-adlist/master/hosts
  - https://v.firebog.net/hosts/static/w3kbl.txt
  - https://raw.githubusercontent.com/Yhonay/antipopads/master/hosts
  - https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/hostfile.txt
- - https://zerodot1.gitlab.io/CoinBlockerLists/hosts_browser
+ - https://gitlab.com/ZeroDot1/CoinBlockerLists/raw/master/list_browser.txt
  - https://raw.githubusercontent.com/FadeMind/hosts.extras/master/StreamingAds/hosts
  - https://raw.githubusercontent.com/azet12/KADhosts/master/KADhosts.txt
  - https://raw.githubusercontent.com/FadeMind/hosts.extras/master/UncheckyAds/hosts
@@ -79,6 +79,16 @@ addn-hosts=/path/to/hostnames.txt
  - https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Dead/hosts
  - https://ransomwaretracker.abuse.ch/downloads/RW_DOMBL.txt
  - https://zeustracker.abuse.ch/blocklist.php?download=domainblocklist
+ - http://www.urlvir.com/export-hosts/
+ - https://raw.githubusercontent.com/mitchellkrogza/The-Big-List-of-Hacked-Malware-Web-Sites/master/.dev-tools/output/domains/ACTIVE/list
+ - https://malc0de.com/bl/BOOT
+ - https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt
+ - https://data.netlab.360.com/feeds/dga/dircrypt.txt
+ - https://data.netlab.360.com/feeds/dga/fobber.txt
+ - https://data.netlab.360.com/feeds/dga/ccleaner.txt
+ - https://osint.bambenekconsulting.com/feeds/c2-dommasterlist-high.txt
+ - https://raw.githubusercontent.com/lightswitch05/hosts/master/ads-and-tracking-extended.txt
+ - http://security-research.dyndns.org/pub/malware-feeds/ponmocup-infected-domains-shadowserver.csv
  - a large set of custom entries
   
 **Adblock Plus lists** (only full hostname, non-3rd party filters)
@@ -103,11 +113,9 @@ addn-hosts=/path/to/hostnames.txt
  - https://easylist-downloads.adblockplus.org/advblock.txt
  - https://raw.githubusercontent.com/yous/YousList/master/youslist.txt
  - https://raw.githubusercontent.com/jspenguin2017/uBlockProtector/master/uBlockProtectorList.txt
-
-
-# Lists that will NOT be included
- - http://hosts-file.net/fsa.txt `too many false calls`
- - http://hosts-file.net/emd.txt `too many false calls`
- - http://rlwpx.free.fr/WPFF/hosts.htm `too many false calls, focussed on content blocking`
- - https://github.com/AdguardTeam/AdguardDNS `they parse all domains from adblock filters, causing loads of false calls`
- - http://www.joewein.de/sw/bl-text.htm `very outdated, almost all domains expired`
+ - https://filters.adtidy.org/extension/chromium/filters/11.txt
+ - https://filters.adtidy.org/extension/chromium/filters/1.txt
+ - https://filters.adtidy.org/extension/chromium/filters/16.txt
+ - https://filters.adtidy.org/extension/chromium/filters/7.txt
+ - https://filters.adtidy.org/extension/chromium/filters/9.txt
+ - https://filters.adtidy.org/extension/chromium/filters/13.txt
